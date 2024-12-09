@@ -60,7 +60,8 @@
       },
       {
          "name":"identifiant_uuid",
-         "description":"Identifiant créé de manière automatique"," 32 chiffres hexadécimaux en minuscules séparés par 4 tirets",
+         "description":"Identifiant créé de manière automatique"
+         " 32 chiffres hexadécimaux en minuscules séparés par 4 tirets",
          "example":"123e4567-e89b-12d3-a456-426614174000",
          "type":"string{36}",
          "constraints": {
