@@ -28,18 +28,18 @@
    ],
    "sources":[
       {
-         "title":"Arrêté du 12 janvier 2017 relatif aux objets importants",
-         "path":"https://beta.legifrance.gouv.fr/codes/id/LEGISCTA000031367685/2020-05-25"
+         "title":"format d'échange co-construit par l'ensemble des membres de la Comunauté des Conseils Départementaux d'Auvergne-Rhône-Alpes",
+         "path":"https://osmose.numerique.gouv.fr/jcms/p_5273800/fr/communaute-des-conseils-departementaux-aura"
       }
    ],
-   "created":"2018-06-29",
-   "lastModified":"2019-05-06",
+   "created":"2024-09-30",
+   "lastModified":"2024-12-09",
    "version":"v0.1.0",
    "contributors":[
       {
-         "title":"John Smith",
-         "email":"john.smith@etalab.gouv.fr",
-         "organisation":"Etalab",
+         "title":"frédéric Sanchez",
+         "email":"frederic.sanchez@ign.fr",
+         "organisation":"GT CD AURA",
          "role":"author"
       },
       {
