@@ -46,10 +46,10 @@
    "fields":[
       {
          "name":"identifiant",
-         "description":"Un identifiant unique et pérenne de l'objet"
-         "il est fabriqué de la manière suivante : <dep>-<id_plo_usuel> "
-         "dep : 3 chiffres avec 0 en 1er chiffre pour les départements métropolitains"
-         "id_plo_usuel : récupération des identifiants utilisés par chacun",
+         "description":"Un identifiant unique et pérenne de l'objet <LF>
+         il est fabriqué de la manière suivante : <dep>-<id_plo_usuel> <LF>
+         dep : 3 chiffres avec 0 en 1er chiffre pour les départements métropolitains <LF>
+         id_plo_usuel : récupération des identifiants utilisés par chacun",
          "example":"identifiant : 038-1075  est le PR du département 38 (isère), dont l'identifiant usuel est 1075",
          "type":"string{50}",
          "constraints": {
