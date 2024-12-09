@@ -72,8 +72,8 @@
       },
       {
          "name":"pr",
-         "description":"numéro du PR,
-           par convention, les PR de fin sont codés en 999 si pas de valeur métrique connue",
+         "description":"numéro du PR"
+          " par convention, les PR de fin sont codés en 999 si pas de valeur métrique connue",
          "example":"pr=15 pour le 15ième pr de la D64",
          "type":"string",
          "constraints": {
@@ -81,9 +81,30 @@
          }
       },
       {
-         "name":"date_creation",
-         "description":"La date de création de l'objet, au format ISO 8601 AAAA-MM-DD.",
-         "example":"2020-02-27",
+         "name":"identifiant",
+         "description":"Un identifiant unique et pérenne de l'objet"," il est fabriqué de la manière suivante : <dep>-<id_plo_usuel>",
+         "dep : 3 chiffres avec 0 en 1er chiffre pour les départements métropolitains",
+         "id_plo_usuel : récupération des identifiants utilisés par chacun",
+         "example":"identifiant : 038-1075  est le PR du département 38 (isère), dont l'identifiant usuel est 1075",
+         "type":"string{50}",
+         "constraints": {
+            "required": true,
+            "unique" : true,
+            "pattern": "d{3}-\\d{46}"
+         }
+      },
+      {
+         "name":"axe",
+         "description":"l'attribut axe renseigne le numéro de la route",
+         "Il est défini par délibération du conseil départemental mais ne requiert pas forcément un acte administratif (à minima un arrêté de mise en service)",
+         "Cas général : Il est saisi sous la forme Dxxx où xxx est le numéro de la route en chiffres arabe et peut être suivi d’une lettre en majuscule ou minuscule et/ou de chiffres. Certaines Métropoles utilisent la grammaire Mxxx",
+         "Cas des giratoires : : Dxxx_GIRyy  avec ",
+            "xxx est le numéro de la route en chiffres arabe et peut être suivi d’une lettre en majuscule",
+            "yy le numéro du giratoire qui peut être un chiffre arabe, une lettre en majuscule ou une combinaison des 2",
+            "Le séparateur est un underscore _  (tiret du 8)"
+
+         "example":"la départementale n°2 aura un axe=D2",
+         "Les tronçon appartenant au 13ièlme giratoire de la D10006 auront un attribut axe = D1006_GIR13",
          "type":"date",
          "constraints":{
             "required":true
