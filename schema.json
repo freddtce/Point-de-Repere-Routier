@@ -50,11 +50,22 @@
          "dep : 3 chiffres avec 0 en 1er chiffre pour les départements métropolitains",
          "id_plo_usuel : récupération des identifiants utilisés par chacun",
          "example":"identifiant : 038-1075  est le PR du département 38 (isère), dont l'identifiant usuel est 1075",
-         "type":"string",
+         "type":"string{50}",
          "constraints": {
             "required": true,
             "unique" : true,
-            "pattern": "d{3}-\\d"
+            "pattern": "d{3}-\\d{46}"
+         }
+      },
+      {
+         "name":"identifiant_uuid",
+         "description":"Identifiant créé de manière automatique"," 32 chiffres hexadécimaux en minuscules séparés par 4 tirets",
+         "example":"123e4567-e89b-12d3-a456-426614174000",
+         "type":"string{36}",
+         "constraints": {
+            "required": false,
+            "unique" : true,
+            "pattern": "d{36}"
          }
       },
       {
