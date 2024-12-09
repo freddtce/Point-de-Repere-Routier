@@ -39,22 +39,16 @@
       {
          "title":"frédéric Sanchez",
          "email":"frederic.sanchez@ign.fr",
-         "organisation":"GT CD AURA",
+         "organisation":"Communauté CD AURA",
          "role":"author"
       },
-      {
-         "title":"Jane Doe",
-         "email":"jane.doe@example.com",
-         "organisation":"Association très importante",
-         "role":"contributor"
-      }
    ],
    "fields":[
       {
-         "name":"id",
-         "description":"Un identifiant unique de l'objet.",
+         "name":"identifiant",
+         "description":"Un identifiant unique et pérenne de l'objet"," il est fabriqué de la manière suivante : <dep>-<id_plo_usuel>"," avec 
          "example":42,
-         "type":"integer",
+         "type":"string",
          "constraints":{
             "required":true,
             "minimum":1
