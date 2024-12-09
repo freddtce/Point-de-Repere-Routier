@@ -60,8 +60,7 @@
       },
       {
          "name":"identifiant_uuid",
-         "description":"Identifiant créé de manière automatique"
-         " 32 chiffres hexadécimaux en minuscules séparés par 4 tirets",
+         "description":"Identifiant créé de manière automatique (32 chiffres hexadécimaux en minuscules séparés par 4 tirets)",
          "example":"123e4567-e89b-12d3-a456-426614174000",
          "type":"string{36}",
          "constraints": {
@@ -72,10 +71,9 @@
       },
       {
          "name":"pr",
-         "description":"numéro du PR"
-          " par convention, les PR de fin sont codés en 999 si pas de valeur métrique connue",
+         "description":"numéro du PR. Par convention, les PR de fin sont codés en 999 si pas de valeur métrique connue",
          "example":"pr=15 pour le 15ième pr de la D64",
-         "type":"string",
+         "type":"number",
          "constraints": {
             "required": true
          }
@@ -100,28 +98,62 @@
          "example":"la départementale n°2 aura un axe=D2",
          "Les tronçon appartenant au 13ième giratoire de la D10006 auront un attribut axe = D1006_GIR13",
          "type":"string",
+         "maxLength": "20",
          "constraints":{
             "required":true
          }
       },
       {
-         "name":"nom",
+         "name":"typeplo",
          "description":"Le nom de l'objet.",
-         "example":"Brouette",
+         "example":"PRD (début) est le typeplo du 1er PR d'une départementale",
          "type":"string",
+         "enum": [
+            "PR",
+            "PRD",
+            "PRF",
+            "PRV",
+            "PBD",
+            "PBF"
+         ]
          "constraints":{
             "required":true
          }
       },
       {
-         "name":"classification",
-         "description":"Classification de l'objet.",
-         "example":"Classification A",
-         "type":"string",
+         "name":"absd",
+         "description":"Valeur de l’abscisse réelle du PR en mètre qui la plupart du temps est égal à 0 (pour les typelo=PR) mais peut contenir une valeur positive ou négative en cas de décalage du positionnement du PR sur le terrain (typeplo= début ou fin)",
+         "example":"0",
+         "type":"number",
          "constraints": {
-            "enum": ["Classification A", "Classification B", "Classification C"]
+            "required":true
          }
+      },
+       {
+         "name":"cumuld",
+         "description":"Somme des distances en mètre d’une même route depuis le PRD",
+         "example":"6604",
+         "type":"number",
+         "constraints": {
+            "required":true
+         },
+       },
+          {
+         "name":"ordre",
+         "description":"Ordre de positionnement des PR pour une même route qui respecte le sens croissant des PR",
+         "example":"7",
+         "type":"number",
+         "constraints": {
+            "required":true
+         }
+      },
+       {
+         "name": "complément",
+         "description": "complément d'information (1000 caractères maximum)",
+         "type": "string",
+         "maxLength": "1000",
+         "example": "ce PR est la propriété du CD74 mais géré par le CD73"
       }
    ],
-   "primaryKey":"id"
+   "primaryKey":"identifiant"
 }
