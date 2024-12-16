@@ -76,8 +76,7 @@
       },
       {
          "name":"axe",
-         "description":"l'attribut axe renseigne le numéro de la route. Il est défini par délibération du conseil départemental mais ne requiert pas forcément un acte administratif (à minima un arrêté de mise en service)",
-         "Cas général : Il est saisi sous la forme Dxxx où xxx est le numéro de la route en chiffres arabes et peut être suivi d’une lettre en majuscule ou minuscule et/ou de chiffres. Certaines Métropoles utilisent la grammaire Mxxx",
+         "description":"l'attribut axe renseigne le numéro de la route. Il est défini par délibération du conseil départemental mais ne requiert pas forcément un acte administratif (à minima un arrêté de mise en service). Dans le cas général, il est saisi sous la forme Dxxx où xxx est le numéro de la route en chiffres arabes et peut être suivi d’une lettre en majuscule ou minuscule et/ou de chiffres. Certaines Métropoles utilisent la grammaire Mxxx",
          "example":"la départementale n°2 aura un axe=D2",
          "type":"string",
          "maxLength": "20",
