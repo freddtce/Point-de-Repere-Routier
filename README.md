@@ -23,6 +23,10 @@ date de mise à jour : AAAAMMJJ
             id_plo_usuel : récupération des identifiants utilisés par chacun
             
 ### axe 
+           Il renseigne le numéro de la route. Il est défini par délibération du conseil départemental mais ne requiert pas forcément un acte administratif (à minima un arrêté de mise en                                  service). 
+            Dans le cas général, il est saisi sous la forme Dxxx où xxx est le numéro de la route en chiffres arabes et peut être suivi d’une lettre en majuscule ou minuscule et/ou de chiffres. 
+            Certaines Métropoles utilisent la grammaire Mxxx
+            
 #### cas des giratoires : Dxxx_GIRyy  
             xxx est le numéro de la route en chiffres arabes et peut être suivi d’une lettre en majuscule ou minuscule
             yy le numéro du giratoire qui peut être un chiffre arabe, une lettre en majuscule ou une combinaison des 2
