@@ -81,21 +81,8 @@
       {
          "name":"axe",
          "description":"l'attribut axe renseigne le numéro de la route. Il est défini par délibération du conseil départemental mais ne requiert pas forcément un acte administratif (à minima un arrêté de mise en service)",
-         "Cas général : Il est saisi sous la forme Dxxx où xxx est le numéro de la route en chiffres arabe et peut être suivi d’une lettre en majuscule ou minuscule et/ou de chiffres. Certaines Métropoles utilisent la grammaire Mxxx",
-         "Cas des giratoires : Dxxx_GIRyy  avec ",
-            "xxx est le numéro de la route en chiffres arabe et peut être suivi d’une lettre en majuscule",
-            "yy le numéro du giratoire qui peut être un chiffre arabe, une lettre en majuscule ou une combinaison des 2",
-            "Le séparateur est un underscore _  (tiret du 8)",
-         "cas des chaussées séparées : Dxxx_G avec ",
-            "xxx est le numéro de la route en chiffres arabe et peut être suivi d’une lettre en majuscule ou minuscule",
-            "Le séparateur est un underscore _  (tiret du 8)",
-         "cas des annexes ou indices : Dxxx-yy",
-            "xxx est le numéro de la route en chiffres arabe et peut être suivi d’une lettre en majuscule",
-            "yy l’indice qui peut être un chiffre arabe, une lettre en majuscule ou minuscule, ou une combinaison des 2",
-         "le cas des bretelles n'est pas traité dans ce format PR",
-
+         "Cas général : Il est saisi sous la forme Dxxx où xxx est le numéro de la route en chiffres arabes et peut être suivi d’une lettre en majuscule ou minuscule et/ou de chiffres. Certaines Métropoles utilisent la grammaire Mxxx",
          "example":"la départementale n°2 aura un axe=D2",
-         "Les tronçon appartenant au 13ième giratoire de la D10006 auront un attribut axe = D1006_GIR13",
          "type":"string",
          "maxLength": "20",
          "constraints":{
