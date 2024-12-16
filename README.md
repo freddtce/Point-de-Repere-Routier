@@ -18,16 +18,16 @@ date de mise à jour : AAAAMMJJ
 ## Précisions sur certains attribus
 
 ### axe 
-cas des giratoires : Dxxx_GIRyy  avec ,
+#### cas des giratoires : Dxxx_GIRyy  
             xxx est le numéro de la route en chiffres arabe et peut être suivi d’une lettre en majuscule
             yy le numéro du giratoire qui peut être un chiffre arabe, une lettre en majuscule ou une combinaison des 2
             Le séparateur est un underscore _  (tiret du 8)
             
-cas des chaussées séparées : Dxxx_G avec 
+#### cas des chaussées séparées : Dxxx_G 
             xxx est le numéro de la route en chiffres arabe et peut être suivi d’une lettre en majuscule ou minuscule
             Le séparateur est un underscore _  (tiret du 8)
             
-cas des annexes ou indices : Dxxx-yy",
+#### cas des annexes ou indices : Dxxx-yy"
             xxx est le numéro de la route en chiffres arabe et peut être suivi d’une lettre en majuscule
             yy l’indice qui peut être un chiffre arabe, une lettre en majuscule ou minuscule, ou une combinaison des 2
             le cas des bretelles n'est pas traité dans ce format PR
