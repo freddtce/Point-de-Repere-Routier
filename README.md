@@ -15,20 +15,21 @@ type d'objet : ponctuel
 
 date de mise à jour : AAAAMMJJ
 
-## Précisions sur certains attribus
+## Précisions sur certains attributs
 
 ### axe 
 #### cas des giratoires : Dxxx_GIRyy  
-            xxx est le numéro de la route en chiffres arabe et peut être suivi d’une lettre en majuscule
+            xxx est le numéro de la route en chiffres arabes et peut être suivi d’une lettre en majuscule ou minuscule
             yy le numéro du giratoire qui peut être un chiffre arabe, une lettre en majuscule ou une combinaison des 2
             Le séparateur est un underscore _  (tiret du 8)
             
 #### cas des chaussées séparées : Dxxx_G 
-            xxx est le numéro de la route en chiffres arabe et peut être suivi d’une lettre en majuscule ou minuscule
+            xxx est le numéro de la route en chiffres arabes et peut être suivi d’une lettre en majuscule ou minuscule
             Le séparateur est un underscore _  (tiret du 8)
             
 #### cas des annexes ou indices : Dxxx-yy"
-            xxx est le numéro de la route en chiffres arabe et peut être suivi d’une lettre en majuscule
+            xxx est le numéro de la route en chiffres arabes et peut être suivi d’une lettre en majuscule ou minuscule
             yy l’indice qui peut être un chiffre arabe, une lettre en majuscule ou minuscule, ou une combinaison des 2
-            le cas des bretelles n'est pas traité dans ce format PR
+            
+#### le cas des bretelles n'est pas traité dans ce format PR
 
