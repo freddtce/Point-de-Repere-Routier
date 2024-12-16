@@ -45,7 +45,7 @@
    "fields":[
       {
          "name":"identifiant",
-         "description":"Identifiant unique et pérenne de l'objet ",
+         "description":"Identifiant unique et pérenne de l'objet",
          "example":"identifiant : 038-1075  est le PR du département 38 (isère), dont l'identifiant usuel est 1075",
          "type":"string{50}",
          "constraints": {
