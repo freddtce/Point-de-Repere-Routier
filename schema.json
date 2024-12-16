@@ -95,7 +95,7 @@
             "PRV",
             "PBD",
             "PBF"
-         ]
+         ],
          "constraints":{
             "required":true
          }
