@@ -85,7 +85,7 @@
       },
       {
          "name":"typeplo",
-         "description":"Le nom de l'objet.",
+         "description":"Le nom de l'objet",
          "example":"PRD (début) est le typeplo du 1er PR d'une départementale",
          "type":"string",
          "enum": [
