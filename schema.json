@@ -9,9 +9,8 @@
       "Point de Repère Routier"
    ],
    "countryCode":"FR",
-   "homepage":"https://https://github.com/freddtce/Point-de-Repere-Routier2",
-   "path":"https://github.com/freddtce/Point-de-Repere-Routier2/edit/master/schema.json",
-   "image":"https://github.com/mon-orga/schema-objets-importants/raw/v0.1.0/irve.png",
+   "homepage":"https://https://github.com/freddtce/Point-de-Repere-Routier",
+   "path":"https://github.com/freddtce/Point-de-Repere-Routier/edit/master/schema.json",
    "licenses":[
       {
          "title":"Etalab Licence Ouverte 2.0",
