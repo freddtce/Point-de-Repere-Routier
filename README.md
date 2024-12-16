@@ -17,6 +17,11 @@ date de mise à jour : AAAAMMJJ
 
 ## Précisions sur certains attributs
 
+### identifiant
+            il est fabriqué de la manière suivante : <dep>-<id_plo_usuel> 
+            dep : 3 chiffres avec 0 en 1er chiffre pour les départements métropolitains
+            id_plo_usuel : récupération des identifiants utilisés par chacun"
+            
 ### axe 
 #### cas des giratoires : Dxxx_GIRyy  
             xxx est le numéro de la route en chiffres arabes et peut être suivi d’une lettre en majuscule ou minuscule
