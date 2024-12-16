@@ -6,15 +6,18 @@ Ce format permettra aux membres de la communauté (et à tous ceux qui voudrons 
 
 L'idée est aussi de proposer le format d'échange régional comme une première pierre à la construction d'un standard national soit auprès du Conseil National de l'Information Géolocalisée - CNIG, soit auprès de la Délégation de la Sécurité Routière - DSR.
 
-##Métadonnées du Format d'Echange
+## Métadonnées du Format d'Echange
 format : geopackage
+
 encodage : utf8
+
 type d'objet : ponctuel
+
 date de mise à jour : AAAAMMJJ
 
-##Précisions sur certains attribus
+## Précisions sur certains attribus
 
-###axe 
+### axe 
 cas des giratoires : Dxxx_GIRyy  avec ,
             xxx est le numéro de la route en chiffres arabe et peut être suivi d’une lettre en majuscule
             yy le numéro du giratoire qui peut être un chiffre arabe, une lettre en majuscule ou une combinaison des 2
