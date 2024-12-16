@@ -116,7 +116,7 @@
          "type":"number",
          "constraints": {
             "required":true
-         },
+         }
        },
           {
          "name":"ordre",
