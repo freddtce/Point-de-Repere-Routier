@@ -58,7 +58,7 @@
          "name":"identifiant_uuid",
          "description":"Identifiant créé de manière automatique (32 chiffres hexadécimaux en minuscules séparés par 4 tirets)",
          "example":"123e4567-e89b-12d3-a456-426614174000",
-         "type":"string{36}",
+         "type":"string",
          "constraints": {
             "required": false,
             "unique" : true,
@@ -68,7 +68,7 @@
       {
          "name":"pr",
          "description":"numéro du PR. Par convention, les PR de fin sont codés en 999 si pas de valeur métrique connue",
-         "example":"pr=15 pour le 15ième pr de la D64",
+         "example":"15 pour le 16ième point de repère de la D64 si on débute par 0",
          "type":"number",
          "constraints": {
             "required": true
@@ -77,6 +77,7 @@
       {
          "name":"axe",
          "description":"le numéro de la route",
+         "example":" D2"
          "type":"string",
          "maxLength": "20",
          "constraints":{
@@ -85,7 +86,7 @@
       },
       {
          "name":"typeplo",
-         "description":"Le nom de l'objet",
+         "description":"Le type de point de repère",
          "example":"PRD (début) est le typeplo du 1er PR d'une départementale",
          "type":"string",
          "enum": [
