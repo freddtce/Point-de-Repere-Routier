@@ -46,7 +46,7 @@
       {
          "name":"identifiant",
          "description":"Identifiant unique et pérenne de l'objet",
-         "example":"identifiant : 038-1075  est le PR du département 38 (isère), dont l'identifiant usuel est 1075",
+         "example":"identifiant 038-1075  est le PR du département 38 (isère), dont l'identifiant usuel est 1075",
          "type":"string",
          "constraints": {
             "required": true,
@@ -56,8 +56,8 @@
       },
       {
          "name":"identifiant_uuid",
-         "description":"Identifiant créé de manière automatique (32 chiffres hexadécimaux en minuscules séparés par 4 tirets)",
-         "example":"123e4567-e89b-12d3-a456-426614174000",
+         "description":"Identifiant créé de manière automatique",
+         "example":"32 chiffres hexadécimaux en minuscules séparés par 4 tirets",
          "type":"string",
          "constraints": {
             "required": false,
@@ -68,7 +68,7 @@
       {
          "name":"pr",
          "description":"numéro du PR. Par convention, les PR de fin sont codés en 999 si pas de valeur métrique connue",
-         "example":"15 pour le 16ième point de repère de la D64 si on débute par 0",
+         "example":"15",
          "type":"number",
          "constraints": {
             "required": true
