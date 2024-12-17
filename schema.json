@@ -77,7 +77,7 @@
       {
          "name":"axe",
          "description":"le numéro de la route",
-         "example":" D2"
+         "example":" D2",
          "type":"string",
          "maxLength": "20",
          "constraints":{
