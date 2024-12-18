@@ -62,7 +62,7 @@
          "constraints": {
             "required": false,
             "unique" : true,
-            "pattern": "[a-z0-9\h]{1,36}"
+            "pattern": "[a-z0-9 ]{1,36}"
          }
       },
       {
