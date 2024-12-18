@@ -129,7 +129,7 @@
          }
       },
        {
-         "name": "complément",
+         "name": "complement",
          "description": "complément d'information (1000 caractères maximum)",
          "type": "string",
          "maxLength": "1000",
