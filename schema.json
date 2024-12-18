@@ -51,7 +51,7 @@
          "constraints": {
             "required": true,
             "unique" : true,
-            "pattern": "[0-9]{3}-[0-9]*"
+            "pattern": "[0-9]{3}-.*"
          }
       },
       {
@@ -62,7 +62,7 @@
          "constraints": {
             "required": false,
             "unique" : true,
-            "pattern": "[a-z0-9-]{36}"
+            "pattern": "[a-z0-9\h]{1,36}"
          }
       },
       {
