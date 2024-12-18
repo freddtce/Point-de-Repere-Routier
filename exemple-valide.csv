@@ -1,5 +1,4 @@
-identifiant,identifiant_uuid,pr,axe,typeplo,absd,cumuld,ordre,complement,
-042-D193_1_1000,non disponible,1,D93,PR,0,1000,1, ,
-042-D100_4_0_47,non disponible,0,D100-4,0,47,0,Bretelle,
-042-D62_9_8981,non disponible,9,D62,PR,0,8981,9, ,
-
+identifiant,identifiant_uuid,pr,axe,typeplo,absd,cumuld,ordre,complement
+042-D193_1_1000,non disponible,1,D93,PR,0,1000,1,rien
+042-D100_4_0_47,non disponible,0,D100-4,0,47,0,Bretelle
+042-D62_9_8981,non disponible,9,D62,PR,0,8981,9,rien
